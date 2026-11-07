@@ -1,0 +1,65 @@
+navbar-brand{
+
+    color: #8c3c61; /* Couleur du texte de la marque (blanc) */
+    font-size: 1.5rem; /* Taille de police de la marque */
+
+}
+
+/* Animation et design des éléments de l'accordéon */
+.accordion-item {
+  border: none ;
+  border-radius: 12px ;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Effet de zoom léger au survol de chaque bloc */
+.accordion-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(27, 184, 216, 0.1);
+}
+
+/* Style des boutons de l'accordéon */
+.accordion-button {
+  background-color: #ffffff;
+  color: #d6507b;
+  font-size: 1.1rem;
+  padding: 1.25rem 1.5rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Quand l'accordéon est ouvert */
+.accordion-button:not(.collapsed) {
+  background-color: #f8f9fa;
+  color: #33d7c7; /* Ou la couleur principale de votre agence */
+  box-shadow: none;
+}
+
+/* Supprimer les bordures par défaut de Bootstrap */
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+/* Animation du corps de l'accordéon */
+.accordion-body {
+  background-color: #32e2dc;
+  padding: 1.5rem;
+  color: #555555;
+  line-height: 1.6;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Animation d'apparition en fondu */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

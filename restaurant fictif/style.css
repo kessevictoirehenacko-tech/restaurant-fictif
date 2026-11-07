@@ -1,0 +1,141 @@
+
+ /* Style personnalisé pour la section héros (image de fond) */
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/télécharger\ \(17\).jpg') no-repeat center center;
+            background-size: cover;
+            height: 80vh;
+            color: rgb(171, 47, 138);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+
+        /* Style du logo dans la barre de navigation */
+.nav-logo {
+    height: 40px;          /* Hauteur du logo */
+    width: auto;           /* Maintient les proportions de l'image */
+    object-fit: contain;
+    border-radius: 5px;  /* Optionnel : arrondit légèrement les bords du logo */
+    color: rgb(216, 9, 9);   
+
+}
+
+        /* Style pour les cartes du menu */
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(160, 18, 18, 0.2);
+        }
+         
+        #menu .card-title {
+            color: #4c050f; /* Couleur rouge pour les titres des plats */
+        }
+        
+        #menu .card-text {
+            color: #555; /* Couleur grise pour les descriptions */
+        }
+
+        #menu , .h2{
+
+            color: #80073b; /* Couleur rouge pour les titres des plats */
+        }
+
+        /* Personnalisation de la barre de navigation */
+.custom-navbar {
+    background-color: #1a1a2e; /* Changez cette couleur de fond selon vos goûts */
+    border-bottom: 2px solid #ffc107; /* Ajoute une jolie bordure en bas */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* Ajoute un effet d'ombre portée (box-shadow) */
+    padding: 15px 0;
+}
+
+/* Couleur et style du texte des liens de la navbar */
+.custom-navbar .navbar-nav .nav-link {
+    color: #ffffff !important; /* Couleur du texte (blanc) */
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out; /* Animation fluide pour le hover */
+}
+
+/* Effet au survol (hover) sur les mots de la navbar (Accueil, Menu, etc.) */
+.custom-navbar .navbar-nav .nav-link:hover,
+.custom-navbar .navbar-nav .nav-link.active {
+    color: #1a1a2e !important; /* Change la couleur du texte au survol */
+    background-color: #ffc107; /* Ajoute un fond coloré au survol */
+    box-shadow: 0 0 10px rgba(255, 193, 7, 0.6); /* Effet lumineux autour du lien au survol */
+    transform: translateY(-2px); /* Petit effet de soulèvement élégant */
+}
+.nav-link {
+    font-size: 1.1rem; /* Taille de police légèrement plus grande */
+    letter-spacing: 0.5px; /* Espacement entre les lettres pour un look plus aéré */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Souligne le lien au survol pour un effet visuel */
+}
+.navbar-brand {
+    font-size: 1.5rem; /* Taille de police pour le nom du restaurant */
+    color: #c20a63 !important; /* Couleur du texte du nom du restaurant */
+    letter-spacing: 1px; /* Espacement entre les lettres pour un look plus distinctif */
+}
+
+
+
+
+/* Le conteneur du formulaire (la boîte blanche au milieu) */
+#contact form {
+    background-color: #ffffff; /* Fond blanc pur pour le formulaire */
+    padding: 40px;
+    border-radius: 15px; /* Arrondit les coins du formulaire */
+    border: 2px solid #ffc107; /* Une jolie bordure dorée/jaune */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Effet d'ombre portée pour donner du relief */
+}
+
+/* Titre du formulaire */
+#contact h2 {
+    color: #512020; /* Texte "Contactez-nous" en blanc pour bien contraster avec le fond sombre */
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Style des champs de saisie (inputs et textarea) */
+#contact .form-control {
+    background-color: #d476a4;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 12px;
+    transition: all 0.3s ease;
+}
+
+/* Effet lumineux quand on clique dans un champ (focus) */
+#contact .form-control:focus {
+    background-color: #ffffff;
+    border-color: #b04848;
+    box-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+}
+
+/* Bouton d'envoi stylisé */
+#contact button[type="submit"] {
+    background-color: #63511c;
+    color: #9d9dc4;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    padding: 12px;
+    width: 100%;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 193, 7, 0.4);
+}
+
+/* Effet au survol du bouton */
+#contact button[type="submit"]:hover {
+    background-color: #cea05c;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 193, 7, 0.6);
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LE PALAIS D'OR DE KESSE</title>
+    <!-- Intégration de Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Intégration de Bootstrap Icons pour les icônes de réseaux sociaux -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Section en tête : Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <!-- Logo + Nom du Restaurant -->
+            <a class="navbar-brand d-flex align-items-center gap-2 fw-bold fs-4 text-white" href="#">
+                <!-- Remplacez "logo.png" par le chemin ou le lien de votre image de logo -->
+                <img src="img/I designed a logo for a restaurant with the help of AI!.png 1.png" alt="Logo" class="nav-logo">
+            </a>
+            <a class="navbar-brand fw-bold" href="#">LE PALAIS D'OR DE KESSE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Bouton pour mobile -->
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Liens de navigation avec le hover -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-lg-center gap-2">
+                    <li class="nav-item"><a class="nav-link active" href="#accueil">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#apropos">A propos de nous</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. Section héros -->
+    <header class="hero-section mt-5 pt-4">
+        <div class="container">
+            <b><h1 class="display-3 fw-bold mb-3">Bienvenue au Palais d'Or de Kesse</h1>
+            <p class="lead mb-4">Savourez des plats d'exception préparés avec passion et authenticité.</p>
+            <a href="#menu" class="btn btn-primary btn-lg px-4 py-2">Découvrez notre menu</a>
+        </div>
+    </header>
+
+    <!-- 3. Menu de section -->
+    <section id="menu" class="container py-5">
+        <h2 class="text-center fw-bold mb-5">Notre Menu</h2>
+        <div class="row g-4">
+            <!-- Élément de menu 1 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="img/télécharger (19).jpg" class="card-img-top" alt="VIANDE BRAISEE ET ALLOCO">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold">Viande Braisée & Alloco</h5>
+                        <p class="card-text text-muted">Délicieuses viandes tendres et croustillantes parfaitement grillées et servies avec des bananes plantains mûres dorées et une sauce pimentée maison</p>
+                        <div class="mt-auto d-flex justify-content-between align-items-center">
+                            <span class="text-primary fw-bold fs-5">3000 fr</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Élément de menu 2 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="img/télécharger (20).jpg" class="card-img-top" alt="Pâtes Carbonara">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold">Alloco Traditionnel & Piment</h5>
+                        <p class="card-text text-muted">Savoureuses tranches de plantains frits bien dorées et fondantes à l'intérieur, accompagnées de frites de manioc et d'une sauce tomate pimentée traditionnelle</p>
+                        <div class="mt-auto d-flex justify-content-between align-items-center">
+                            <span class="text-primary fw-bold fs-5">2500 fr</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Élément de menu 3 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="img/télécharger (22).jpg" class="card-img-top" alt="Tiramisu Maison">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-bold">Assiette Gourmande du Matin</h5>
+                        <p class="card-text text-muted">Œufs sur le plat parfaitement coulants, saucisses savoureuses, bacon croustillant et pommes de terre sautées dorées pour bien démarrer la journée</p>
+                        <div class="mt-auto d-flex justify-content-between align-items-center">
+                            <span class="text-primary fw-bold fs-5">2000 fr</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Section à propos de nous -->
+    <section id="apropos" class="bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <img src="img/cafe interior aesthetics_ 💌.jpg" alt="Intérieur du restaurant" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-3">À propos de nous</h2>
+                    <p class="text-muted">Fondé en 2015, Le PALAIS D'OR vous invite à un voyage culinaire au cœur de l'Italie. Notre chef sélectionne minutieusement chaque ingrédient pour vous garantir des saveurs authentiques et mémorables dans une ambiance chaleureuse et conviviale.</p>
+                    <p class="text-muted">Que ce soit pour un dîner romantique, un repas en famille ou un déjeuner d'affaires, notre équipe met tout en œuvre pour vous offrir une expérience inoubliable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Section de contact avec formulaire -->
+    <section id="contact" class="container py-5">
+        <h2 class="text-center fw-bold mb-4">Contactez-nous</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <form>
+                    <!-- Champ pour le nom -->
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nom</label>
+                        <input type="text" class="form-control" id="name" placeholder="Votre nom" required>
+                    </div>
+                    <!-- Champ pour l'email -->
+                    <div class="mb-3">
+                        <label for="firstName" class="form-label">Prénom</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="Votre prénom" required>
+                    </div>
+                    <!-- Champ pour l'email -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="votre.email@exemple.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Téléphone</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="+225 00 00 00 00" required>
+                    </div>
+                    <data class="mb-3">
+                        <label for="date" class="form-label">Date de réservation</label>
+                        <input type="date" class="form-control" id="date" required>
+                    <!-- Champ pour le message -->
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Votre message..." required></textarea>
+                    </div>
+                    <!-- Bouton d'envoi -->
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">Envoyer le message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Pied de page (Piellette) avec droits d'auteur et icônes de médias sociaux -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-2">&copy; 2026 Le Delizioso. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Intégration de Bootstrap JS (Bundle) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
